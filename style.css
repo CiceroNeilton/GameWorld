@@ -2,21 +2,30 @@
 
 
 .logo {
-    background-color: rgb(70, 143, 143);
+    background-color:rgb(190, 38, 38);
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
+.titulo {
+    font-size: 90px;
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 60px;
+}
 .div-2 {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 .button{
-    border-radius: 10px;
-    background-color: black;
-    color: rgb(39, 207, 230);
+    height: 50px;
+    width: 120px;
+    border-radius: 70px;
+    background-color: rgb(216, 213, 39);
+    color: rgb(2, 2, 2);
 }
 .conteudo {
     font-family: 'Bebas Neue', cursive;
@@ -25,7 +34,7 @@
 .jogos {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    color: rgba(0, 0, 0, 0.849);
+    color: rgba(192, 4, 4, 0.849);
     padding-bottom: 20px;
 }
 .text-1 {
@@ -59,6 +68,7 @@
 }
 
 .menu-item {
+    color: black;
     margin-left: 30px;
     font-size: 30px;
     font-family: 'Libre Bodoni', serif;
@@ -111,25 +121,35 @@
     height: 100px;
 }
 
+.text-8 {
+    display: flex;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
 .final {
     margin-bottom: 50px;
     border-radius: 50px;
-    background-color: aqua;
+    background-color:rgb(190, 38, 38);
     font-family: 'Bebas Neue', cursive;
     padding: 20px;
 }
 
 .input {
+    height: 50px;
+    width: 120px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 70px;
     margin-top: 20px;
     margin-bottom: 60px;
 }
 
 .enviar {
-    border-radius: 10px;
-    background-color: black;
-    color: rgb(39, 207, 230);
+    height: 50px;
+    width: 120px;
+    border-radius: 70px;
+    background-color: rgb(216, 213, 39);
+    color: rgb(2, 2, 2);
 }
 
 .ceo {
@@ -141,6 +161,9 @@
 * { margin: 0; padding: 0; }
 
 .slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     display: block;
     height: 293px;
     width: 600px;
@@ -167,13 +190,14 @@
 }
 
 .slider label {
+    border-radius: 10px;
     background-color: rgb(210, 224, 9);
     bottom: 10px;
     cursor: pointer;
     display: block;
-    height: 10px;
+    height: 20px;
     position: absolute;
-    width: 10px;
+    width: 50px;
     z-index: 10;
 }
 
@@ -182,11 +206,11 @@
 }
 
 .slider li:nth-child(2) label {
-    left: 40px;
+    left: 80px;
 }
 
 .slider li:nth-child(3) label {
-    left: 70px;
+    left: 160px;
 }
 
 .slider img {
